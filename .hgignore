@@ -1,0 +1,6 @@
+syntax:glob
+.svn
+.hgsvn
+*.pyc
+*.swp
+*.egg-info/
