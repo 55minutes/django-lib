@@ -23,7 +23,7 @@ else:
 
 # Setup the project directory
 setup(
-    name='55MDjango',
+    name='55M-Django',
     version='0.5',
     author='55 Minutes',
     author_email='info@55minutes.com',
