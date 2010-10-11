@@ -7,3 +7,11 @@ class USStateField(models.USStateField):
                                             empty_label=u'Select a state')}
         defaults.update(kwargs)
         return super(USStateField, self).formfield(**defaults)
+
+try:
+    from south.modelsinspector import add_introspection_rules
+    add_introspection_rules(
+        [], ['^fiftyfive\.django\.contrib\.localflavor\.us\.models\.USStateField'])
+except ImportError:
+    pass
+
